@@ -1,0 +1,66 @@
+header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  filter: drop-shadow(0rem 0rem 0.2rem rgba(255, 255, 255, 0.5));
+  text-align: center;
+}
+
+main {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  backdrop-filter: blur(2px) saturate(100%);
+  -webkit-backdrop-filter: blur(2px) saturate(100%);
+  background-color: rgba(17, 25, 40, 0.5);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-size: 5.5rem;
+  font-weight: 500;
+}
+
+.phrase-container {
+  padding: 1.5rem 1.5rem 0 1.5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+p {
+  font-size: 2.5rem;
+  text-align: center;
+  color: white;
+}
+
+.icon {
+  height: 5rem;
+  color: #ee99d9;
+  width: 4rem;
+}
+
+.clique {
+  color: #ee99d9;
+}
+
+.letter {
+  width: 70%;
+  height: 16rem;
+  color: #fad7f1;
+}
+
+.btn-letter {
+  background-color: transparent;
+  border: none;
+}
